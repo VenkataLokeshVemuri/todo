@@ -1,0 +1,112 @@
+body{
+    background: linear-gradient(60deg, #8b1aef,#6f48b2, hsl(222, 100%, 20%));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.Title{
+    color: white;
+    font-family: system-ui;
+    text-align: center;
+    font-size: 4rem;
+    
+}
+ol{
+    list-style-type: none;
+    padding: 0;
+    margin: 5px;
+}
+li{
+    margin:20px 15px;
+    background-color: rgba(119, 9, 136,0.5);
+   border-radius: 10px;
+   padding: 5px;;
+  
+}
+button{
+    border-radius: 5px;
+    border: none;
+    margin: 0px 3px 0px 3px;
+    font-size: 1rem;
+}
+input{
+    width: 65%;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 15px;
+}
+.inputButtonAdd{
+    background-color: rgb(23, 212, 23);
+    color: white;
+    height: 25px;
+    margin-left: 5px;;
+}
+.inputButtonAdd:hover{
+    background-color: darkgreen;
+    cursor: pointer;
+}
+.inputButtonClear{
+    background-color: blue;
+    color: white;
+    height: 25px;
+}
+.inputButtonClear:hover{
+    background-color: darkblue;
+    cursor: pointer;
+}
+.delete-button{
+    background-color: red;
+    color: white;
+    height: 25px;
+}
+.delete-button:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.up-button, .down-button{
+    background-color:orange;
+    color: white;
+    height: 25px;
+}
+.up-button:hover{
+    background-color:rgb(164, 95, 11);
+    cursor: pointer;
+}
+.down-button:hover{
+    background-color:rgb(164, 95, 11);
+    cursor: pointer;
+}
+.taskbuttons{
+    float: right;
+   
+}
+
+.taskitem{
+    font-size: 1.5rem;
+    color: white;
+    font-family: system-ui;
+    margin-bottom: 5px;  
+}
+.todolist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+
+}
+.tasks{
+    background-color:rgba(255,255,255,0.3);
+    font-size: 1.5rem;
+    width: 30%;
+    height: auto;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.inputTask{
+    margin-bottom: 15px;
+}
